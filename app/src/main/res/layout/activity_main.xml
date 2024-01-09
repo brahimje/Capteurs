@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/accelerationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acceleration: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/xAxisText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelerationText"
+        android:layout_marginTop="16dp"
+        android:text="X-Axis: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/yAxisText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xAxisText"
+        android:layout_marginTop="16dp"
+        android:text="Y-Axis: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/zAxisText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yAxisText"
+        android:layout_marginTop="16dp"
+        android:text="Z-Axis: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/magneticFieldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zAxisText"
+        android:layout_marginTop="16dp"
+        android:text="Magnetic Field: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/orientationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/magneticFieldText"
+        android:layout_marginTop="16dp"
+        android:text="Orientation: "
+        android:textSize="18sp"/>
+</RelativeLayout>
